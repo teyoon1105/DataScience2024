@@ -1,0 +1,27 @@
+﻿1. remote repo(github)dp repo생성
+	DataScience2024
+	https://github.com/teyoon1105/DataScience2024.git
+
+2. local repo를 생성(복제)
+	git clone https://github.com/teyoon1105/DataScience2024.git
+
+3. local repo에 파일 추가
+	메모장에서 github.order.txt 파일 하나 생성
+	git add github.order.txt
+
+3.5  git config --global user.name ""
+      git config --global user.email ""
+
+4. commit(변경된 내용 서술)
+	git commit -m ""
+
+5. push
+	git push(2단계 인증 > 브라우저 인증)
+
+6. 파일의 내용을 수정하고 싶을 때
+   현재까지 파일의 remote repo에서 수정내용이 있는지 확인
+   수정된 내용이 있으면 업데이트
+   git pull
+   내용을 수정하고 git push
+
+7. git hub desktop update
